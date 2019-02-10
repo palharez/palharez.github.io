@@ -1,34 +1,35 @@
 # Site settings
 title: "Palharez"
-email:  xeduardopalhares@gmail.com
-description: "Meu site pessoal."
+email: xeduardopalhares@gmail.com
+description: "Site pessoal de Eduardo Palhares."
 baseurl: ""
 url: ""
-title_description: "Olá me chamo Eduardo Palhares, um estudante autodidata apaixonado por programação, 
-                    nasci e vivo em São Paulo/SP, atualmente focado em estudar Python e JavaScript, 
-                    incluindo o ecossistema ao redor dessas linguagens.<br>
-                    Cada dia fazendo algo diferente e procurando aprender algo novo!"
-title_image: "https://pbs.twimg.com/profile_images/936002333091254272/RTDIK_2__400x400.jpg"
+title_description:
+  "Olá sou um estudante autodidata com uma paixão por tecnologia
+  inovadora que atualmente se concentra no estudo de Python e JavaScript,
+  incluindo o ecossistema ao redor dessas linguagens.<br>
+  Todos os dias fazendo algo diferente e procurando aprender coisas novas."
+title_image: "https://media.licdn.com/dms/image/C4D03AQFbj_6aKSKA8Q/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=kifDepzf5KzngyG4LDUG9DscFEOyvgR_xG7wy3yxC1c"
 google_analytics: ""
-disqus_account: 
-github_repository: 
-addthis_id: 
+disqus_account: disqus_3SWn8SuP5V
+github_repository: https://github.com/palharez/palharez.github.io
+addthis_id:
 post_limit: 5
 
 # Social usernames/URLs
 twitter_username: xeduardopjr
-github_username:  palharez
+github_username: palharez
 instagram_username: eduardoapjr
-reddit_username: 
+reddit_username:
 linkedin_link: http://linkedin.com/in/eduardopalhares
-google_plus_link: 
-stackoverflow_link: 
+google_plus_link:
+stackoverflow_link:
 xing_link:
 facebook_link: http://facebook.com/xEduardoPalhares
 
 # Footer
-footer_left: "Modified with <i class=\"fa fa-heart\"></i> by <a href=\"https://twitter.com/xeduardopjr\">Eduardo Palhares</a>"
-footer_right: "&lt;/&gt; on <a href=\"https://github.com/jacobtomlinson/carte-noire\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_left: 'Modified with <i class="fa fa-heart"></i> by <a href="https://twitter.com/xeduardopjr">Eduardo Palhares</a>'
+footer_right: '&lt;/&gt; on <a href="https://github.com/jacobtomlinson/carte-noire">Github</a> &nbsp;<i class="fa fa-github-alt"></i>'
 
 # Build settings
 markdown: kramdown
