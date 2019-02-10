@@ -21,10 +21,11 @@ make-smaller-titles: true
 
             {% include social_links.html %}
           </div>
+          {% if site.posts > 0 %}
           <div class="col-md-12 main content-panel">
 
             <div class="articles">
-
+                
               <h2>Latest Articles</h2>
 
               <ul>
@@ -44,6 +45,6 @@ make-smaller-titles: true
             </div>
 
         </div>
-
+    {% endif %}
     </div>
 </div>
