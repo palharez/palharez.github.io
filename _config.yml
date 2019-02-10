@@ -1,5 +1,5 @@
 # Site settings
-title: "Palharez"
+title: "Eduardo Palhares"
 email: xeduardopalhares@gmail.com
 description: "Site pessoal de Eduardo Palhares."
 baseurl: ""
@@ -28,7 +28,7 @@ xing_link:
 facebook_link: http://facebook.com/xEduardoPalhares
 
 # Footer
-footer_left: 'Modified with <i class="fa fa-heart"></i> by <a href="https://twitter.com/xeduardopjr">Eduardo Palhares</a>'
+footer_left: 'Modified with <i class="fa fa-heart"></i> by <a href="https://twitter.com/xeduardopjr">Palharez</a>'
 footer_right: '&lt;/&gt; on <a href="https://github.com/jacobtomlinson/carte-noire">Github</a> &nbsp;<i class="fa fa-github-alt"></i>'
 
 # Build settings
