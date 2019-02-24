@@ -1,3 +1,3 @@
 # palharez.github.io
 
-My github pages
+My personal web page

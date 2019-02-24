@@ -1,42 +1,28 @@
-# Site settings
-title: "Eduardo Palhares"
-email: xeduardopalhares@gmail.com
-description: "Site pessoal de Eduardo Palhares."
-baseurl: ""
-url: ""
-title_description:
-  "Olá sou um estudante autodidata com uma paixão por tecnologia
-  inovadora que atualmente se concentra no estudo de Python e JavaScript,
-  incluindo o ecossistema ao redor dessas linguagens.<br>
-  Todos os dias fazendo algo diferente e procurando aprender coisas novas."
-title_image: "https://media.licdn.com/dms/image/C4D03AQFbj_6aKSKA8Q/profile-displayphoto-shrink_200_200/0?e=1555545600&v=beta&t=kifDepzf5KzngyG4LDUG9DscFEOyvgR_xG7wy3yxC1c"
-google_analytics: ""
-disqus_account: palharez
-github_repository: https://github.com/palharez/palharez.github.io
-addthis_id:
-post_limit: 5
+layout: sidebar
+style: dark
 
-# Social usernames/URLs
-twitter_username: xeduardopjr
-github_username: palharez
-instagram_username: eduardoapjr
-reddit_username:
-linkedin_link: http://linkedin.com/in/eduardopalhares
-google_plus_link:
-stackoverflow_link:
-xing_link:
-facebook_link: http://facebook.com/xEduardoPalhares
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
 
-# Footer
-footer_left: 'Modified with <i class="fa fa-heart"></i> by <a href="https://twitter.com/xeduardopjr">Palharez</a>'
-footer_right: '&lt;/&gt; on <a href="https://github.com/jacobtomlinson/carte-noire">Github</a> &nbsp;<i class="fa fa-github-alt"></i>'
+permalink: /:year/:month/:day/:title/
 
-# Build settings
-markdown: kramdown
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
 
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+topics:
+  - name: Python
+    web_url: https://github.com/topics/python
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
 
-permalink: pretty
-exclude: [vendor]
+  - name: JavaScript
+    web_url: https://github.com/topics/js
+    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
+
+  - name: Database
+    image_url: https://raw.githubusercontent.com/github/explore/5a90ece3593b9a5c492b815ed9f162edec073b28/topics/sql/sql.png 
