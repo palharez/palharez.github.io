@@ -1,0 +1,74 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  color: #fff;
+  background-color: #1b1b1b;
+  font-size: 15px;
+  font-family: "Menlo", monospace;
+  font-weight: 400;
+  font-display: swap;
+  line-height: 1.725;
+  text-rendering: geometricPrecision;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.title {
+  letter-spacing: 0.01em;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 700;
+  color: white;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.content {
+  width: 100%;
+  max-width: 39rem;
+  -moz-box-flex: 1;
+  flex: 1 1;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 4rem auto;
+}
+
+.list-content {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a.icon {
+  color: inherit;
+  text-decoration: none;
+  background: none;
+}
+
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
+}
